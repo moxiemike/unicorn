@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		208712E1207845A50018089B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208712E0207845A50018089B /* UserModel.swift */; };
+		208712E3207858FA0018089B /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208712E2207858FA0018089B /* FloatingPoint.swift */; };
+		208712E520786EF60018089B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208712E420786EF60018089B /* LoginViewController.swift */; };
+		208712E720786F060018089B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208712E620786F060018089B /* RegisterViewController.swift */; };
+		208712E920786F260018089B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208712E820786F260018089B /* MainViewController.swift */; };
+		208712EB20786F440018089B /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208712EA20786F440018089B /* ARViewController.swift */; };
+		20EAE56C2076C7F90076B7CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAE56B2076C7F90076B7CC /* AppDelegate.swift */; };
+		20EAE56E2076C7F90076B7CC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EAE56D2076C7F90076B7CC /* art.scnassets */; };
+		20EAE5702076C7F90076B7CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EAE56F2076C7F90076B7CC /* ViewController.swift */; };
+		20EAE5732076C7F90076B7CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EAE5712076C7F90076B7CC /* Main.storyboard */; };
+		20EAE5752076C7F90076B7CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EAE5742076C7F90076B7CC /* Assets.xcassets */; };
+		20EAE5782076C7FA0076B7CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EAE5762076C7F90076B7CC /* LaunchScreen.storyboard */; };
+		832A114680096BA9095A8240 /* Pods_UnicornVR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748B2889E67623697FECA25B /* Pods_UnicornVR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		208712E0207845A50018089B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		208712E2207858FA0018089B /* FloatingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPoint.swift; sourceTree = "<group>"; };
+		208712E420786EF60018089B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		208712E620786F060018089B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		208712E820786F260018089B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		208712EA20786F440018089B /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		20EAE5682076C7F90076B7CC /* UnicornVR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnicornVR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EAE56B2076C7F90076B7CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20EAE56D2076C7F90076B7CC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		20EAE56F2076C7F90076B7CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20EAE5722076C7F90076B7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20EAE5742076C7F90076B7CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20EAE5772076C7F90076B7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20EAE5792076C7FA0076B7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748B2889E67623697FECA25B /* Pods_UnicornVR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnicornVR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAD04E8A83A2B03534CDC34 /* Pods-UnicornVR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnicornVR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnicornVR/Pods-UnicornVR.debug.xcconfig"; sourceTree = "<group>"; };
+		B8621E7B7C56C8F0A5F9703E /* Pods-UnicornVR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnicornVR.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnicornVR/Pods-UnicornVR.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20EAE5652076C7F90076B7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832A114680096BA9095A8240 /* Pods_UnicornVR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208712DB207843670018089B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				208712E2207858FA0018089B /* FloatingPoint.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		208712DC207843730018089B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				208712E0207845A50018089B /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		208712DD2078437D0018089B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				208712E420786EF60018089B /* LoginViewController.swift */,
+				208712E620786F060018089B /* RegisterViewController.swift */,
+				208712E820786F260018089B /* MainViewController.swift */,
+				208712EA20786F440018089B /* ARViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		208712DE207843970018089B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		208712DF207843B60018089B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		20EAE55F2076C7F90076B7CC = {
+			isa = PBXGroup;
+			children = (
+				20EAE56A2076C7F90076B7CC /* UnicornVR */,
+				20EAE5692076C7F90076B7CC /* Products */,
+				F08F579DF452ABC3A0955FA4 /* Pods */,
+				8CD5267D7E511CCFE724D5EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20EAE5692076C7F90076B7CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20EAE5682076C7F90076B7CC /* UnicornVR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20EAE56A2076C7F90076B7CC /* UnicornVR */ = {
+			isa = PBXGroup;
+			children = (
+				208712DF207843B60018089B /* Network */,
+				208712DE207843970018089B /* Views */,
+				208712DD2078437D0018089B /* Controllers */,
+				208712DC207843730018089B /* Models */,
+				208712DB207843670018089B /* Extensions */,
+				20EAE56B2076C7F90076B7CC /* AppDelegate.swift */,
+				20EAE56D2076C7F90076B7CC /* art.scnassets */,
+				20EAE56F2076C7F90076B7CC /* ViewController.swift */,
+				20EAE5712076C7F90076B7CC /* Main.storyboard */,
+				20EAE5742076C7F90076B7CC /* Assets.xcassets */,
+				20EAE5762076C7F90076B7CC /* LaunchScreen.storyboard */,
+				20EAE5792076C7FA0076B7CC /* Info.plist */,
+			);
+			path = UnicornVR;
+			sourceTree = "<group>";
+		};
+		8CD5267D7E511CCFE724D5EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				748B2889E67623697FECA25B /* Pods_UnicornVR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F08F579DF452ABC3A0955FA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AAD04E8A83A2B03534CDC34 /* Pods-UnicornVR.debug.xcconfig */,
+				B8621E7B7C56C8F0A5F9703E /* Pods-UnicornVR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20EAE5672076C7F90076B7CC /* UnicornVR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EAE57C2076C7FA0076B7CC /* Build configuration list for PBXNativeTarget "UnicornVR" */;
+			buildPhases = (
+				F831319B07C3185D3C347FF6 /* [CP] Check Pods Manifest.lock */,
+				20EAE5642076C7F90076B7CC /* Sources */,
+				20EAE5652076C7F90076B7CC /* Frameworks */,
+				20EAE5662076C7F90076B7CC /* Resources */,
+				3AD6CB1B2E1C79F4F9B35162 /* [CP] Embed Pods Frameworks */,
+				1D5D46F60F3C96C65AD0B8F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnicornVR;
+			productName = UnicornVR;
+			productReference = 20EAE5682076C7F90076B7CC /* UnicornVR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20EAE5602076C7F90076B7CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = UnicornVR;
+				TargetAttributes = {
+					20EAE5672076C7F90076B7CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 20EAE5632076C7F90076B7CC /* Build configuration list for PBXProject "UnicornVR" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20EAE55F2076C7F90076B7CC;
+			productRefGroup = 20EAE5692076C7F90076B7CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20EAE5672076C7F90076B7CC /* UnicornVR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20EAE5662076C7F90076B7CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EAE56E2076C7F90076B7CC /* art.scnassets in Resources */,
+				20EAE5782076C7FA0076B7CC /* LaunchScreen.storyboard in Resources */,
+				20EAE5752076C7F90076B7CC /* Assets.xcassets in Resources */,
+				20EAE5732076C7F90076B7CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D5D46F60F3C96C65AD0B8F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnicornVR/Pods-UnicornVR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AD6CB1B2E1C79F4F9B35162 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UnicornVR/Pods-UnicornVR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PusherSwift/PusherSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PusherSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnicornVR/Pods-UnicornVR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F831319B07C3185D3C347FF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnicornVR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20EAE5642076C7F90076B7CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208712E920786F260018089B /* MainViewController.swift in Sources */,
+				208712E3207858FA0018089B /* FloatingPoint.swift in Sources */,
+				20EAE5702076C7F90076B7CC /* ViewController.swift in Sources */,
+				208712EB20786F440018089B /* ARViewController.swift in Sources */,
+				208712E1207845A50018089B /* UserModel.swift in Sources */,
+				208712E720786F060018089B /* RegisterViewController.swift in Sources */,
+				208712E520786EF60018089B /* LoginViewController.swift in Sources */,
+				20EAE56C2076C7F90076B7CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20EAE5712076C7F90076B7CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20EAE5722076C7F90076B7CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20EAE5762076C7F90076B7CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20EAE5772076C7F90076B7CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20EAE57A2076C7FA0076B7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20EAE57B2076C7FA0076B7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20EAE57D2076C7FA0076B7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AAD04E8A83A2B03534CDC34 /* Pods-UnicornVR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7R433H2CL;
+				INFOPLIST_FILE = UnicornVR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Unicornvr.UnicornVR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20EAE57E2076C7FA0076B7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8621E7B7C56C8F0A5F9703E /* Pods-UnicornVR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7R433H2CL;
+				INFOPLIST_FILE = UnicornVR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Unicornvr.UnicornVR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20EAE5632076C7F90076B7CC /* Build configuration list for PBXProject "UnicornVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EAE57A2076C7FA0076B7CC /* Debug */,
+				20EAE57B2076C7FA0076B7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EAE57C2076C7FA0076B7CC /* Build configuration list for PBXNativeTarget "UnicornVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EAE57D2076C7FA0076B7CC /* Debug */,
+				20EAE57E2076C7FA0076B7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20EAE5602076C7F90076B7CC /* Project object */;
+}
